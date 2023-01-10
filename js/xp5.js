@@ -1,13 +1,13 @@
 
 // Exercice 5 : Famille
 // Des Instructions
-// Créez un objet appelé famille avec quelques paires clé-valeur.
 
 let family = {
     father : "Arsene",
     mum : "agnes",
     wife : "habibi"
 }
+// Créez un objet appelé famille avec quelques paires clé-valeur.
 for ( const basec in family ){
     console.log ( "the basec of our family: " + basec )
 }
